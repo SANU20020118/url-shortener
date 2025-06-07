@@ -1,6 +1,6 @@
 from flask import Flask, request, redirect, jsonify
 from flask_cors import CORS
-from models import db, URL
+from .models import db, URL
 import string
 import random
 
